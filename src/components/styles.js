@@ -16,7 +16,7 @@ const styles = {
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
-        width: "50%",
+        width: "100%",
       },
 
 
@@ -28,8 +28,24 @@ const styles = {
       height: "150px"
     },
     
-    center: { textAlign: "center" },
+    center: { textAlign: "center" 
+    },
 
+    centered1: {
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+    },
+
+    centered3: {
+      position: 'absolute',
+      top: '60%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+    }
+
+  
   };
   
   export default styles;
