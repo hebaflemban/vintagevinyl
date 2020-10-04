@@ -1,20 +1,16 @@
 import React from 'react';
 
-import styles from './styles';
+import {ItemWrapper} from './styles';
 
 
 const VinylItem = (props) => {
     const vinyl = props.vinyl;
     return (
-        <div>
-            <img style={styles.listImg}
-                    className=""
-                    src={vinyl.image} 
-                    alt = 'background' 
-            />
-            <h5 style={styles.center} ><code> {vinyl.name} </code></h5>
-            <p style={styles.center}><code>{vinyl.price}</code></p>
-        </div>
+        <ItemWrapper>
+            <img src={vinyl.image} alt = 'background'/>
+            <h5><code> {vinyl.name} </code></h5>
+            <p className="vinyl-price"><code> {vinyl.price} </code></p>
+        </ItemWrapper>
 
     );
 
