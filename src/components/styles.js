@@ -14,7 +14,7 @@ export const Header = styled.header`
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url('./src/components/header.png');
+  url("header.png");
   background-size: cover;
   height: 100vh;
 
@@ -35,6 +35,13 @@ export const Title = styled.h1`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 6rem;
+  white-space: nowrap;
+  font-weight: 900
+
 `;
 
 export const Subtitle = styled.h3`
@@ -42,6 +49,10 @@ export const Subtitle = styled.h3`
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+
+
 `;
 
 export const List = styled.div`
