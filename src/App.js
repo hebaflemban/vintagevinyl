@@ -22,7 +22,7 @@ function App() {
     <ThemeProvider theme = {theme}>
       <div>
         <GlobalStyle/>
-        <Header >
+        <Header>
           <div class="container">
             <Title ><code> Vintage Vinyl </code></Title>
             <Subtitle><code> a store that can sing</code></Subtitle>
